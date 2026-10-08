@@ -1,0 +1,36 @@
+# Dependencies and generated output
+node_modules/
+dist/
+.vite/
+.npm/
+coverage/
+*.log
+
+# Local secrets; the example contains comments only
+.env
+.env.*
+!.env.example
+.npmrc
+*.pem
+*.key
+*.p12
+*.pfx
+*credentials*.json
+*service-account*.json
+
+# Previous hosting metadata and local provider state
+.openai/
+.edgeone/
+.vercel/
+.wrangler/
+.aws/
+secrets/
+
+# Local/editor artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.playwright-cli/
+output/
+*.zip

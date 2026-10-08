@@ -1,0 +1,19 @@
+{
+  "name": "tan-portfolio-island",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "TAN interactive Three.js design portfolio, statically built for EdgeOne Pages.",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "verify:production": "node scripts/verify-production.mjs"
+  },
+  "devDependencies": {
+    "vite": "6.4.4"
+  }
+}
